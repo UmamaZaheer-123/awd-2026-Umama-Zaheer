@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Umama Zaheer — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- background orbs (the glassmorphism "glow" behind the glass) -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar glass">
+    <div class="logo">UZ<span class="dot">.</span></div>
+    <nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#dreams">Dreams</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-glass glass reveal">
+      <p class="eyebrow">Web Development Intern</p>
+      <h1>Hi, I'm <span class="highlight">Umama Zaheer</span></h1>
+      <p class="tagline" id="typedText"></p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn btn-primary">View My Story</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="section-title reveal">About Me</h2>
+    <div class="glass card reveal">
+      <p>
+        I'm Umama Zaheer, a Computer Science student and beginner web development intern, currently
+        taking my first steps into the world of front-end development. This portfolio is my very
+        first project — built with plain HTML, CSS, and JavaScript as part of my internship's
+        first task. I'm excited to keep learning Git, GitHub, and the everyday workflow real
+        developers use to build and ship their work.
+      </p>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <h2 class="section-title reveal">Education Background</h2>
+    <div class="timeline">
+      <div class="glass card reveal">
+        <span class="badge">2025 — Present</span>
+        <h3>BS Computer Science</h3>
+        <p>Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology — currently in 2nd semester.</p>
+      </div>
+      <div class="glass card reveal">
+        <span class="badge">2023 — 2025</span>
+        <h3>Intermediate — Scholars Science</h3>
+        <p>Completed intermediate with a Science major.</p>
+      </div>
+      <div class="glass card reveal">
+        <span class="badge">Completed 2023</span>
+        <h3>Matriculation</h3>
+        <p>Sir Syed College Campus 1.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAREER GOALS -->
+  <section id="goals" class="section">
+    <h2 class="section-title reveal">Career Goals</h2>
+    <div class="grid-2">
+      <div class="glass card reveal">
+        <h3>Short-Term</h3>
+        <p>
+          Complete this internship with a strong grasp of front-end development, get comfortable
+          with Git and GitHub, and build a small collection of real projects I can proudly show
+          in my portfolio.
+        </p>
+      </div>
+      <div class="glass card reveal">
+        <h3>Long-Term</h3>
+        <p>
+          Grow into a skilled web developer and take on freelance or remote online work in this
+          field, so I can build a flexible career in tech while continuing to sharpen my skills
+          in modern web technologies.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section id="hobbies" class="section">
+    <h2 class="section-title reveal">Hobbies</h2>
+    <div class="chip-group reveal">
+      <span class="chip">🍳 Cooking</span>
+      <span class="chip">🏸 Sports</span>
+      <span class="chip">🎮 Gaming</span>
+    </div>
+  </section>
+
+  <!-- DREAMS -->
+  <section id="dreams" class="section">
+    <h2 class="section-title reveal">Dreams</h2>
+    <div class="glass card quote-card reveal">
+      <p class="quote">
+        "My dream is to build a strong, respected career in the IT field — to keep learning web
+        development, take on meaningful online work, and one day be known for building things
+        that are genuinely useful and well-made."
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2 class="section-title reveal">Get In Touch</h2>
+    <div class="glass card contact-card reveal">
+      <p>Feel free to reach out — I'm always happy to connect!</p>
+      <div class="social-links">
+        <a href="mailto:umamazaheer0@gmail.com" class="btn btn-ghost">Email</a>
+        <a href="https://github.com/UmamaZaheer-123" target="_blank" class="btn btn-ghost">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer glass">
+    <p>© <span id="year"></span> Umama Zaheer. Built with HTML, CSS & JS while learning Git & GitHub.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
